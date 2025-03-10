@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "viDdWunnJWk=",
+  "dgSpecHash": "IsvogzkaSJI=",
   "success": true,
   "projectFilePath": "C:\\repos\\Store\\Store.Domain\\Store.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\wisch\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
