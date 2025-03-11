@@ -6,5 +6,6 @@
     &lt;TestId&gt;MSTest::3D373E5B-D3E8-285D-02F5-F7574286C671::net8.0::Store.Tests.Entities.OrderTests.Dado_um_pedido_cancelado_seu_status_deve_cancelado&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::3D373E5B-D3E8-285D-02F5-F7574286C671::net8.0::Store.Tests.Entities.OrderTests.Dado_um_novo_item_sem_produto_o_mesmo_nao_deve_ser_adicionado&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::3D373E5B-D3E8-285D-02F5-F7574286C671::net8.0::Store.Tests.Entities.OrderTests.Dado_um_pagamento_do_pedido_seu_status_deve_ser_aguardando_entrega&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::3D373E5B-D3E8-285D-02F5-F7574286C671::net8.0::Store.Tests.Entities.OrderTests.Dado_um_novo_item_com_quantidade_zero_ou_menor_o_mesmo_nao_deve_ser_adicionado&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
