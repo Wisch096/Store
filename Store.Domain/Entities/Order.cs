@@ -38,12 +38,12 @@ public class Order : Entity
             Items.Add(item);
     }
 
-    private decimal Total()
+    public decimal Total()
     {
         var total = Items.Sum(item => item.Total());
 
         total += DeliveryFee;
-        total -= Discount.Value();
+        total -= Discount != null ? Discount.Value() : 0;
 
         return total;
     }
