@@ -2,5 +2,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fede475e_002De11b_002D4ae8_002Da703_002Db8a83a350a59/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Dado_um_novo_pedido_valido_ele_deve_gerar_um_numero_com_8_caracteres" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::3D373E5B-D3E8-285D-02F5-F7574286C671::net8.0::Store.Tests.Entities.OrderTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::3D373E5B-D3E8-285D-02F5-F7574286C671::net8.0::Store.Tests.Queries.ProductQueriesTest.Dado_a_consulta_produtos_ativos_deve_retornar_3&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::3D373E5B-D3E8-285D-02F5-F7574286C671::net8.0::Store.Tests.Queries.ProductQueriesTest.Dado_a_consulta_produtos_inativos_deve_retornar_2&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
