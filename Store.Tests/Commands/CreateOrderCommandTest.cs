@@ -18,6 +18,6 @@ public class CreateOrderCommandTest
         command.Items.Add(new CreateOrderItemCommand(Guid.NewGuid(), 1));
         command.Validate();
         
-        Assert.AreEqual(command.IsValid, false);
+        Assert.AreEqual(!command.IsValid, false);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Flunt.Notifications;
+using Flunt.Validations;
 using Store.Domain.Commands.Interfaces;
 
 namespace Store.Domain.Commands;
@@ -27,6 +28,9 @@ public class CreateOrderCommand : Notifiable<Notification>, ICommand
     
     public void Validate()
     {
-        throw new NotImplementedException();
+        AddNotifications(new Contract<CreateOrderCommand>()
+            .Requires()
+            .IsGreaterThan(PromoCode.Length, 3, "PromoCode", "PromoCode must have length 3 or more")
+        );
     }
 }
