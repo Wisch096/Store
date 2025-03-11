@@ -47,10 +47,10 @@ public class OrderTests
     
     [TestMethod]
     [TestCategory("Domain")]
-    public void Dado_um_pedido_cancelado_seu_status_deve_cancelado()
+    public void Dado_um_novo_item_sem_produto_o_mesmo_nao_deve_ser_adicionado()
     {
         var order = new Order(_customer, 0, null);
-        order.Cancel();
-        Assert.AreEqual(order.Status, EOrderStatus.Canceled);
+        order.AddItem(null, 10);
+        Assert.AreEqual(order.Items.Count, 0);
     }
 }

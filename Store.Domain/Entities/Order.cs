@@ -38,14 +38,10 @@ public class Order : Entity
             Items.Add(item);
     }
 
-    public decimal Total()
+    private decimal Total()
     {
-        decimal total = 0;
-        foreach (var item in Items)
-        {
-            total += item.Total();
-        }
-        
+        var total = Items.Sum(item => item.Total());
+
         total += DeliveryFee;
         total -= Discount.Value();
 
@@ -55,11 +51,11 @@ public class Order : Entity
     public void Pay(decimal amount)
     {
         if (amount == Total())
-            this.Status = EOrderStatus.WaitingDelivery;
+            Status = EOrderStatus.WaitingDelivery;
     }
 
     public void Cancel()
     {
-        this.Status = EOrderStatus.Canceled;
+        Status = EOrderStatus.Canceled;
     }
 }
